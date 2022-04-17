@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Lewis Gatsby Starter Blog`,
-    description: `A custom Gatsby starter template to start a blog or personal website.`,
-    siteUrl: `https://lewis-gatsby-starter-blog.netlify.com`,
+    title: `I-Ponder`,
+    description: `Just another personal blog.`,
+    siteUrl: `https://i-ponder.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -49,6 +49,6 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-robots-txt`
   ],
 }
