@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `I-Ponder`,
+    title: `I Ponder`,
     description: `Just another personal blog.`,
     siteUrl: `https://i-ponder.netlify.app`,
   },
@@ -49,6 +49,17 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`
+    `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "G-953Q0ZYNPE",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+      },
+    },
   ],
 }
