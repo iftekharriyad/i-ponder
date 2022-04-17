@@ -51,10 +51,9 @@ export default function Home({data}) {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>Lewis Gatsby Starter Blog</HeadingXL>
+          <HeadingXL>I Ponder</HeadingXL>
           <TextHome>
-            This is a custom Gatsby starter template to start a new blog or
-            personal website.
+            Just another personal blog.
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({node}) => (

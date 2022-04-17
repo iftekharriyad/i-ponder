@@ -1,18 +1,18 @@
 <h1 align="center">
-  Lewis Gatsby Starter Blog
+  I Ponder
 </h1>
 
 <br>
 <br>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Just another personal Blog.
 
 Additionally, it has [ESLint](https://eslint.org/) to lint JavaScript and React, and [Prettier](https://prettier.io/) to format code according to a specified set of rules.
 
 <br>
 <br>
 
-## 🚀 Quick start
+## Quick start
 
 1.  **Create a Gatsby site.**
 
@@ -20,7 +20,7 @@ Additionally, it has [ESLint](https://eslint.org/) to lint JavaScript and React,
 
     ```sh
     # create a new Gatsby site using the blog starter
-    gatsby new my-blog https://github.com/lewislbr/lewis-gatsby-starter-blog
+    gatsby new my-blog https://github.com/iftekharriyad/i-ponder
     ```
 
 1.  **Start developing.**
@@ -43,7 +43,7 @@ Additionally, it has [ESLint](https://eslint.org/) to lint JavaScript and React,
 <br>
 <br>
 
-## 🧐 What's inside?
+## What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
@@ -81,11 +81,3 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 <br>
 <br>
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
