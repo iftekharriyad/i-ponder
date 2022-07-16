@@ -17,7 +17,7 @@ export default function About({data}) {
       <HeaderBack />
       <Layout>
         <HeadingXL>About</HeadingXL>
-        <Image fluid={data.RandomPhoto.childImageSharp.fluid} />
+        <Image fluid={data.AuthorPhoto.childImageSharp.fluid} />
         <TextBody>
           Building mr concerns servants in he outlived am breeding. He so lain
           good miss when sell some at if. Told hand so an rich gave next. How
@@ -41,9 +41,9 @@ export default function About({data}) {
 
 export const data = graphql`
   query {
-    RandomPhoto: file(relativePath: {eq: "assets/images/RandomPhoto.jpg"}) {
+    AuthorPhoto: file(relativePath: {eq: "assets/images/iftekharriyad.jpeg"}) {
       childImageSharp {
-        fluid(maxWidth: 1400) {
+        fluid(maxHeight: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
